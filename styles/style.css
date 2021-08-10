@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(230, 247, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  align-self: center;
+}
+
+.display {
+  background-color: white;
+  height: 80px;
+  width: 373px;
+  border-style: none;
+  display: flex;
+  margin: 0 0;
+  font-size: 35px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonRow {
+  margin-bottom: 3px;
+}
+
+.buttonRow button {
+  height: 80px;
+  width: 90px;
+  border-style: none;
+}
+
+.buttonRow button:active {
+  background-color: rgb(38, 155, 233);
+}
+
+.numBtn,
+.zeros {
+  background-color: white;
+  cursor: pointer;
+  font-size: large;
+}
+
+.numBtn:active,
+.zeros:active {
+  background-color: rgb(219, 210, 210) !important;
+}
+
+.operatorBtn {
+  background-color: rgb(130, 202, 250);
+  cursor: pointer;
+  font-size: large;
+}
+
+#division,
+#dot,
+#minus {
+  font-size: 20px;
+}
